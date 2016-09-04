@@ -9,3 +9,5 @@
 for i in 1..5 do
   Job.create!(title: "Job #{i}", content: "Good Job #{i}")
 end
+
+user = User.create!(email: "xdite@growth.school", password: "123456", password_confirmation: "123456")
